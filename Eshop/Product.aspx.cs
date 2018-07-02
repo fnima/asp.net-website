@@ -13,8 +13,8 @@ public partial class Product : System.Web.UI.Page
     }
     protected void btnSearch_Click(object sender, EventArgs e)
     {
-        String strsql = String.Format("select * from merchandisc where MerName like '%{0}%'",txtKey.Text);
-        SqlDataSource1.SelectCommand = strsql;
-        GridView1.DataBind();
+        //String strsql = String.Format("select * from merchandisc where MerName like '%{0}%'",txtKey.Text);
+        //SqlDataSource1.SelectCommand = strsql;
+        //GridView1.DataBind();
     }
 }

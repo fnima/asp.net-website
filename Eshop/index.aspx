@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 
     
-    <style>
+  <%--  <style>
 	/*-- faculty --*/
 .faculty_top{
 	margin-bottom:2em;
@@ -143,10 +143,17 @@ figure.team_member figcaption {
 }
 
 </style>
+--%>
 
+            /* 使图像充分响应 */
+ .carousel-inner img 
+ {
+      
+    width: 100%;
+    height: 100%;
+ }
 
-
-
+ 
 </asp:Content>
 
 
@@ -162,9 +169,9 @@ figure.team_member figcaption {
                 
                     <div class="col-sm-3 faculty_grid ">
                         <figure class="team_member">
-	   	  		        <img src='<%# Eval("Picture") %>' class="img-responsive wp-post-image" alt="">
+	   	  		        <img src='<%# Eval("Picture") %>"/400x300"' class="img-responsive wp-post-image" alt="">
 	   	  		        <div></div>
-	   	  		            <figcaption><h3 class="person-title"><a href="singlepage.html">Wines</a></h3>
+	   	  		            <figcaption><h3 class="person-title"><a href="singlepage.html">'<%# Eval("Picture") %>'</a></h3>
 	   	  			            <span class="person-deg">Red Wine</span>
 	   	  			            <p><a href="mailto:info@example.com">info(at)wine.com</a></p>
 	   	  			            <p>4 Years</p>
