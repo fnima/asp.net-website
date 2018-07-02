@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="index.aspx" title="首页"  description="数码商城首页">
+        <siteMapNode url="Login.aspx" title="登录"  description="用户登录" />
+        <siteMapNode url="Reg.aspx" title="注册"  description="用户注册" />
+        <siteMapNode url="Product.aspx" title="商品浏览"  description="商品浏览" >
+          <siteMapNode url="Details.aspx" title="商品详细显示"  description="商品详情" />
+        </siteMapNode>
+        <siteMapNode url="Cart.aspx" title="购物车"  description="购物车" >
+          <siteMapNode url="order.aspx" title="生成订单"  description="生成订单" />
+        </siteMapNode>
+        <siteMapNode url="Collect.aspx" title="收藏夹"  description="收藏夹" />
+        
+    </siteMapNode>
+</siteMap>

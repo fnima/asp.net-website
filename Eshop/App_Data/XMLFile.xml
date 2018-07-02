@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<item url="index.aspx" title="首页"  description="数码商城首页">
+  <item1 url="Login.aspx" title="登录"  description="用户登录"></item1>
+  <item1 url="Reg.aspx" title="注册"  description="用户注册"></item1>
+  <item1 url="Product.aspx" title="商品浏览"  description="商品浏览">
+    <item2 url="Details.aspx" title="商品详细显示"  description="商品详情" ></item2>
+  </item1>
+  <item1 url="Cart.aspx" title="购物车"  description="购物车" >
+    <item2 url="order.aspx" title="生成订单"  description="生成订单"></item2>
+  </item1>
+  <item1 url="Collect.aspx" title="收藏夹"  description="收藏夹"></item1>
+</item>
