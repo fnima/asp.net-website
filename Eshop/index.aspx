@@ -25,6 +25,11 @@
      margin-top:30px;
  }
 
+ .kuang
+ {
+     height:400px;
+ }
+
 
  
 </style>
@@ -99,8 +104,8 @@
                  
                 
                     <div class="col-sm-3 faculty_grid ">
-                        <figure class="team_member">
-	   	  		        <img src='<%# Eval("Picture") %>' class="img-responsive wp-post-image" alt="">
+                        <figure class="team_member kuang">
+	   	  		        <img src='<%# Eval("Picture") %>' class="img-fluid wp-post-image " alt="">
 	   	  		        <div></div>
 	   	  		            <figcaption><h3 class="person-title"><a href="singlepage.html">'<%# Eval("Picture") %>'</a></h3>
 	   	  			            <span class="person-deg">Red Wine</span>
