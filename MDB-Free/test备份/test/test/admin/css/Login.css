@@ -1,0 +1,63 @@
+﻿ 
+        /*-------------------页面框架---------------------*/
+	.login_frame
+        {
+            border: medium solid #F1F1F1;
+            width: 373px;
+            float:none;
+            text-align: center;
+            padding: 10px;
+            margin-left: 10px;
+           
+        }
+        /*----------------行样式设置-----------------------*/
+	.form_row
+        {
+            padding: 10px 0px 10px 0px;
+            width: 383px;
+            clear: both;
+            text-align: left;
+            margin-top:20px;
+        }
+        /*-------------标题样式--------------------------*/
+	.login_head
+        {
+            margin: 20px 0px 20px 20px;
+            letter-spacing: 7pt;
+            color: #003366;
+            font-size: large;
+            font-family: 黑体;
+            font-weight: bold;
+            text-align: left;
+        }
+        /*------------------------标签样式----------------*/
+	.leftlabel
+        {
+            padding: 4px 15px 0px 0px;
+            width: 100px;
+            font-size: 12px;
+            color: #333333;
+            text-align: right;
+            float: left;
+        }
+        /*---------------输入框样式----------------------*/
+	.rightInput
+        {
+            border: 1px solid #DFDFDF;
+            float: left;
+        }
+        .content
+        {
+            width: 500px;
+            float: right;
+        }
+        /*----------------按钮样式----------------------*/
+	.loginbtn
+        {
+            color: #497825;
+            font-weight: bold;
+            border: 1px solid #CCCFD3;
+            background-color: #FFFFFF;
+            margin-left: 180px;
+        }
+   

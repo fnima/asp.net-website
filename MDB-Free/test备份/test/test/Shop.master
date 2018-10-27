@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Shop.master.cs" Inherits="Shop" %>
+
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <title></title>
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="Styles/mdb.min.css" rel="stylesheet" />
+     
+        <link href="Styles/Styles.css" rel="stylesheet" />
+    <link href="Styles/compiled-4.5.6.min.css" rel="stylesheet" />
+
+     
+    
+
+ <style>
+.top-nav-collapse {
+    background-color: #24355C;
+}
+   
+</style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">Navbar</a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.aspx">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Product.aspx">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actionfigure.aspx">actionfigure</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="Cart.aspx">myCart</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+
+                    <!-- Social Icon  -->
+                   <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="Login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                           <%--<a class="nav-link" href="Login.aspx">Login</a>--%>
+                        </li>
+                       <%-- <li class="nav-item">
+                            <a class="nav-link"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                        </li>--%>
+                    </ul>
+
+                </div>
+                <!-- Collapsible content -->
+
+            </div>
+        </nav>
+
+    
+
+                
+
+        <%--内容--%>
+       <div class="">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       </div>
+
+
+
+        <div class=" container-fluid">
+            <%--<div class="left_footer">
+            </div>--%>
+            <div class="row justify-content-center ">
+                Template name. All Rights Reserved 2018<br />
+                <a href="admin/login.aspx">后台管理</a>
+            </div>
+            <%--<div class="right_footer">
+            </div>--%>
+
+        </div>
+
+          <!-- JQuery -->
+        
+        
+        <script src="/Scripts/jquery-3.3.1.min.js"></script>
+        <script src="/Scripts/popper.min.js"></script>
+        <script src="/Scripts/bootstrap.min.js"></script>
+        
+        <script src="Scripts/mdb.min.js"></script>
+     
+    </form>
+</body>
+</html>

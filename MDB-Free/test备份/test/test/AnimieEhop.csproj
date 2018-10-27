@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57A91958-8512-44D9-9693-3C865DE1BEAF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>test</RootNamespace>
+    <AssemblyName>test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="actionfigure.aspx" />
+    <Content Include="admin\addCommodity.aspx" />
+    <Content Include="admin\checkcode.aspx" />
+    <Content Include="admin\css\admin.css" />
+    <Content Include="admin\css\default.css" />
+    <Content Include="admin\css\Login.css" />
+    <Content Include="admin\css\main.css" />
+    <Content Include="admin\css\pintuer.css" />
+    <Content Include="admin\css\style.css" />
+    <Content Include="admin\images\bar1.gif" />
+    <Content Include="admin\images\body_background.png" />
+    <Content Include="admin\images\border_bg.png" />
+    <Content Include="admin\images\border_end.png" />
+    <Content Include="admin\images\BoxOver_bd.png" />
+    <Content Include="admin\images\btu_ok.png" />
+    <Content Include="admin\images\button_login2.gif" />
+    <Content Include="admin\images\close.gif" />
+    <Content Include="admin\images\content_li_top.png" />
+    <Content Include="admin\images\Folder_bigbtu.png" />
+    <Content Include="admin\images\ico.gif" />
+    <Content Include="admin\images\ico07.gif" />
+    <Content Include="admin\images\left_tabid_cnt_top.png" />
+    <Content Include="admin\images\left_tab_Selected.gif" />
+    <Content Include="admin\images\left_tab_Selectedno.gif" />
+    <Content Include="admin\images\line_2.gif" />
+    <Content Include="admin\images\login-welcome.gif" />
+    <Content Include="admin\images\login.jpg" />
+    <Content Include="admin\images\logo.png" />
+    <Content Include="admin\images\manage_arrow_down.gif" />
+    <Content Include="admin\images\manage_arrow_left.gif" />
+    <Content Include="admin\images\manage_arrow_right.gif" />
+    <Content Include="admin\images\manage_arrow_up.gif" />
+    <Content Include="admin\images\manage_back.gif" />
+    <Content Include="admin\images\manage_top_bg.gif" />
+    <Content Include="admin\images\minus.gif" />
+    <Content Include="admin\images\mode.jpg" />
+    <Content Include="admin\images\nopic.gif" />
+    <Content Include="admin\images\offline.gif" />
+    <Content Include="admin\images\oicq.gif" />
+    <Content Include="admin\images\online.gif" />
+    <Content Include="admin\images\open.gif" />
+    <Content Include="admin\images\plus.gif" />
+    <Content Include="admin\images\progress.jpg" />
+    <Content Include="admin\images\progress1.jpg" />
+    <Content Include="admin\images\quote.gif" />
+    <Content Include="admin\images\re.gif" />
+    <Content Include="admin\images\Setting_TabPage2.png" />
+    <Content Include="admin\images\skinpic.png" />
+    <Content Include="admin\images\Skin_onmouseout_bg.gif" />
+    <Content Include="admin\images\Skin_onmouseout_bg.png" />
+    <Content Include="admin\images\Skin_onmouseover_bg.gif" />
+    <Content Include="admin\images\Skin_onmouseover_bg.png" />
+    <Content Include="admin\images\skin_used.png" />
+    <Content Include="admin\images\sword03.gif" />
+    <Content Include="admin\images\tab.gif" />
+    <Content Include="admin\images\Template_bg.png" />
+    <Content Include="admin\images\used.png" />
+    <Content Include="admin\images\UserIco_bg.png" />
+    <Content Include="admin\images\user_btu_left.png" />
+    <Content Include="admin\images\user_btu_right.png" />
+    <Content Include="admin\images\user_dleft_tab7.png" />
+    <Content Include="admin\images\user_err.gif" />
+    <Content Include="admin\images\user_login_01.gif" />
+    <Content Include="admin\images\user_login_02.gif" />
+    <Content Include="admin\images\user_login_03.gif" />
+    <Content Include="admin\images\user_login_04.gif" />
+    <Content Include="admin\images\user_login_05.gif" />
+    <Content Include="admin\images\user_msg.gif" />
+    <Content Include="admin\images\user_post_input.png" />
+    <Content Include="admin\images\user_post_inputtxt.png" />
+    <Content Include="admin\images\user_post_inputtxt1.png" />
+    <Content Include="admin\images\user_post_title_bg.png" />
+    <Content Include="admin\images\user_post_top_bg.png" />
+    <Content Include="admin\images\user_setting_title_tab_bg.png" />
+    <Content Include="admin\images\user_suc.gif" />
+    <Content Include="admin\images\user_team_bg.png" />
+    <Content Include="admin\images\user_team_top.png" />
+    <Content Include="admin\images\win_top.png" />
+    <Content Include="admin\images\worldmap.jpg" />
+    <Content Include="admin\images\X.gif" />
+    <Content Include="admin\index.aspx" />
+    <Content Include="admin\js\jquery.js" />
+    <Content Include="admin\js\menu.js" />
+    <Content Include="admin\js\pintuer.js" />
+    <Content Include="admin\login.aspx" />
+    <Content Include="admin\main.aspx" />
+    <Content Include="admin\mode.aspx" />
+    <Content Include="admin\myallorder.aspx" />
+    <Content Include="admin\Password.aspx" />
+    <Content Include="admin\Picture.aspx" />
+    <Content Include="admin\updataCommodity.aspx" />
+    <Content Include="admin\userList.aspx" />
+    <Content Include="BootstrapCSSimg\13.jpg" />
+    <Content Include="BootstrapCSSimg\6.jpg" />
+    <Content Include="Cart.aspx" />
+    <Content Include="checkcode.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Details.aspx" />
+    <Content Include="Image\13461444_p0.png" />
+    <Content Include="Image\61597814_p0.jpg" />
+    <Content Include="Image\APPLEB2.jpg" />
+    <Content Include="Image\Assassin3.jpg" />
+    <Content Include="Image\Assassin4.jpg" />
+    <Content Include="Image\Assassin5.jpg" />
+    <Content Include="Image\Avenger.gif" />
+    <Content Include="Image\bei.jpg" />
+    <Content Include="Image\DerbyB2.jpg" />
+    <Content Include="Image\ELF1.jpg" />
+    <Content Include="Image\GGO1.jpg" />
+    <Content Include="Image\gua1.jpg" />
+    <Content Include="Image\hei6.jpg" />
+    <Content Include="Image\icon06.gif" />
+    <Content Include="Image\mao.jpg" />
+    <Content Include="Image\Saber2.jpg" />
+    <Content Include="Image\shopcart.gif" />
+    <Content Include="Image\shutter1.jpg" />
+    <Content Include="Image\shutter2.jpg" />
+    <Content Include="Image\shutter3.jpg" />
+    <Content Include="Image\shutter4.jpg" />
+    <Content Include="Image\shutter_nextBtn.png" />
+    <Content Include="Image\shutter_prevBtn.png" />
+    <Content Include="Image\shutter_shadow.png" />
+    <Content Include="Image\vol.1 .jpg" />
+    <Content Include="Image\xin1.jpg" />
+    <Content Include="Image\yan2.jpg" />
+    <Content Include="Image\yan6.jpg" />
+    <Content Include="Image\yi3.jpg" />
+    <Content Include="Image\yi5.jpg" />
+    <Content Include="Image\yin.jpg" />
+    <Content Include="Image\yugon.jpg" />
+    <Content Include="img\svg\arrow_left.svg" />
+    <Content Include="img\svg\arrow_right.svg" />
+    <Content Include="index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="order.aspx" />
+    <Content Include="Product.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\esm\popper-utils.js" />
+    <Content Include="Scripts\esm\popper-utils.min.js" />
+    <Content Include="Scripts\esm\popper.js" />
+    <Content Include="Scripts\esm\popper.min.js" />
+    <Content Include="Scripts\esm\popper.min.js.map" />
+    <Content Include="Scripts\esm\popper.js.map" />
+    <Content Include="Scripts\esm\popper-utils.min.js.map" />
+    <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Scripts\index.d.ts" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\mdb.min.js" />
+    <Content Include="Scripts\popper-utils.js" />
+    <Content Include="Scripts\popper-utils.min.js" />
+    <Content Include="Scripts\popper.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\umd\popper-utils.js" />
+    <Content Include="Scripts\umd\popper-utils.min.js" />
+    <Content Include="Scripts\umd\popper.js" />
+    <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\compiled-4.5.6.min.css" />
+    <Content Include="Styles\mdb.min.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\Styles.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Scripts\umd\popper.js.map" />
+    <Content Include="Scripts\umd\popper-utils.min.js.map" />
+    <Content Include="Scripts\umd\popper-utils.js.map" />
+    <Content Include="Scripts\README.md" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Scripts\popper.js.map" />
+    <Content Include="Scripts\popper-utils.min.js.map" />
+    <Content Include="Scripts\popper-utils.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actionfigure.aspx.cs">
+      <DependentUpon>actionfigure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addCommodity.aspx.cs">
+      <DependentUpon>addCommodity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addCommodity.aspx.designer.cs">
+      <DependentUpon>addCommodity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\checkcode.aspx.cs">
+      <DependentUpon>checkcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\mode.aspx.cs">
+      <DependentUpon>mode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\mode.aspx.designer.cs">
+      <DependentUpon>mode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\myallorder.aspx.cs">
+      <DependentUpon>myallorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\myallorder.aspx.designer.cs">
+      <DependentUpon>myallorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Password.aspx.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Password.aspx.designer.cs">
+      <DependentUpon>Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Picture.aspx.cs">
+      <DependentUpon>Picture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Picture.aspx.designer.cs">
+      <DependentUpon>Picture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\updataCommodity.aspx.cs">
+      <DependentUpon>updataCommodity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\updataCommodity.aspx.designer.cs">
+      <DependentUpon>updataCommodity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\userList.aspx.cs">
+      <DependentUpon>userList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\userList.aspx.designer.cs">
+      <DependentUpon>userList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="checkcode.aspx.cs">
+      <DependentUpon>checkcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkcode.aspx.designer.cs">
+      <DependentUpon>checkcode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DbManger.cs" />
+    <Compile Include="Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="order.aspx.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="order.aspx.designer.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.master.cs">
+      <DependentUpon>Shop.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Shop.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>16100</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
